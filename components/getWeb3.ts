@@ -3,6 +3,7 @@ import Web3 from "web3";
 const getWeb3 = () =>
   // eslint-disable-next-line no-async-promise-executor
   new Promise(async (resolve, reject) => {
+    console.log("hola");
     // Modern dapp browsers...
     if ((window as any).ethereum) {
       const web3 = new Web3((window as any).ethereum);

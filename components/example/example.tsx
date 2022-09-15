@@ -1,4 +1,5 @@
 import React from "react";
+import getWeb3 from "../getWeb3";
 /* import { WalletLinkConnector } from '@web3-react/walletlink-connector';
 import { InjectedConnector } from '@web3-react/injected-connector';
 import { useWeb3React } from '@web3-react/core'; */
@@ -8,7 +9,6 @@ import { Contract } from '@ethersproject/contracts';
 import AbodeCollectionABI from '../../contracts/AbodeCollection.json'; */
 /* import Web3 from 'web3'; */
 /* import { useToasts } from 'react-toast-notifications'; */
-import getWeb3 from "components/getWeb3";
 
 /* import { ethers } from 'ethers'; */
 export const ExampleComponent = () => {
